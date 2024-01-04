@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess students of class Fed23M</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+    <header class="myHeader">
+        <h1>Guess the names of my <br>classmates</h1>
+    </header>
+    <div id="quiz-container">
+        
+        <div class="hide" id="question-container">
+            <button class="hide" id="restartButton">Restart game</button>
+
+          <img class="imgCenter" id="student-image" src="#" alt=""> <!--I have chose to NOT have an alt attribute because it shows when the image is not shown in DOM-->
+             <div class="center" id="options-container">
+             </div>
+        </div>
+        <div id="result-container">
+            <h3 class="center" id="final-resultat"></h3>
+        </div>
+    </div>
+    <div class="center" id="quiz-setup">
+        <label id="questionLabel" for="questionCount">Select the number of questions&nbsp;</label>
+        <select id="questionCount">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="all">All</option>
+        </select>
+            <button id="startQuizButton">Start Quiz</button>
+    </div>
+
+<footer>
+    <div class="myFooter">
+        <h3 class="textFooter">May the odds be ever in your favor</h3>
+    </div>
+</div>
+</footer>
+</div></div>
+    <script src="students.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
